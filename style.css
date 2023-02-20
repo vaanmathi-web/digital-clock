@@ -1,0 +1,90 @@
+.container{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	border:1px solid #fff;
+	background-color:#000;
+	height:80vh;
+}
+.digital{
+	border:2px solid #fff;
+	border-radius:5px;
+	padding:20px;
+}
+.clock{
+	padding:15px;
+	border-radius:5px;
+	background-color:#000;
+	border:0.5px solid #efeeee73;
+	font-size:25px;
+}
+h1{
+	text-align:center;
+	margin-bottom:10px;
+}
+.radio{
+	margin-left:100px;
+}
+input{
+	accent-color:red;
+}
+.radio label{
+	color:#fff;
+	font-size:20px;
+}
+.temp label{
+	color:#fff;
+	font-size:20px;
+	margin-left:100px;
+}
+.temp span{
+	margin:0px 10px;
+	color:red;
+	font-size:38px;
+	border:1px solid #efeeee73;
+	padding:5px;
+}
+.row .day{
+	color:#fff;
+	margin-left:20px;
+	margin-right:45px;
+}
+.row .month{
+	color:#fff;
+	margin-right:35px;
+}
+.row .year{
+	color:#fff;
+	margin-right:15px;
+}
+.row{
+	display:flex;
+}
+.row .hour{
+	margin-left:20px;
+	color:#fff;
+}
+.row .min{
+	margin-left:20px;
+	color:#fff;
+}
+.row .sec{
+	color:#fff;
+}
+.clock div{
+	padding:10px;
+	color:#000;
+}
+#date{
+	text-align:center;
+	border-radius:5px;
+	border:1px solid #ffffffad;
+	color:red;
+}
+#clockDisplay{
+	margin-bottom:20px;
+	border-radius:5px;
+	border:1px solid #ffffffad;
+	color:red;
+	text-align:center;
+}
